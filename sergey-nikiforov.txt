@@ -2,3 +2,6 @@
    Answear: 9
 2. git log --date-order --reverse --format='%cD' --follow Gemfile | head -n 1
    Answear: Wed, 10 Oct 2012 00:47:52 +0400
+3. git blame lib/zabbixapi.rb | grep -C0 'def proxies'
+   336e8c24 (Pavel Tsaregorodtsev 2013-12-04 12:36:55 +0400 115)   def proxies
+   Answear: Pavel Tsaregorodtsev
