@@ -1,0 +1,2 @@
+1. git log --format=oneline --follow Gemfile | wc -l
+   Answear: 9
