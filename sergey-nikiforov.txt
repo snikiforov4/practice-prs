@@ -1,2 +1,4 @@
 1. git log --format=oneline --follow Gemfile | wc -l
    Answear: 9
+2. git log --date-order --reverse --format='%cD' --follow Gemfile | head -n 1
+   Answear: Wed, 10 Oct 2012 00:47:52 +0400
